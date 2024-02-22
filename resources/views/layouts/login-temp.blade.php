@@ -61,7 +61,7 @@
       <a href="index.html" class="logo d-flex align-items-center scrollto me-auto me-lg-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1><img src="{{ asset('images/wof.gif') }}"  style="width: 80px;height:350px;" class="img-fluid animated"> System<span> Portal</span></h1>
+        <h1><img src="{{ asset('images/wof.gif') }}"  style="width: 100px;height:650px;" class="img-fluid animated"> System<span> Portal</span></h1>
       </a>
 
       <nav id="navbar" class="navbar">
@@ -84,69 +84,12 @@
       </section>
     </div>
 
-    <div class="col-lg-5">
+    <div class="col-lg-6">
 
-      <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-8">
-                <div class="card">
-                    <div class="card-header"></div>
-    
-                    <div class="card-body">
-                        <form method="POST" action="">
-                 
-    
-                            <div class="row mb-3">
-                                <label for="email" class="col-md-4 col-form-label text-md-end"></label>
-    
-                                <div class="col-md-6">
-                                    <input id="email" type="email" class="form-control" name="email" value="" required autocomplete="email" autofocus>
-    
-                                    
-                                </div>
-                            </div>
-    
-                            <div class="row mb-3">
-                                <label for="password" class="col-md-4 col-form-label text-md-end"></label>
-    
-                                <div class="col-md-6">
-                                    <input id="password" type="password" class="form-control " name="password" required autocomplete="current-password">
-    
-                                   
-                                </div>
-                            </div>
-    
-                            <div class="row mb-3">
-                                <div class="col-md-6 offset-md-4">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" name="remember" id="remember" >
-    
-                                        <label class="form-check-label" for="remember">
-                                           
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
-    
-                            <div class="row mb-0">
-                                <div class="col-md-8 offset-md-4">
-                                    <button type="submit" class="btn btn-primary">
-                                     Login
-                                    </button>
-    
-                
-                                   
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+      @yield('content')
 
     </div>
-    <div class="col-lg-1"></div>
+    <!-- <div class="col-lg-1"></div> -->
   </div>
 
 
