@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>WOF - System Portal</title>
+    <title>WOF - Systems Portal</title>
 
     <!-- CSS FILES -->
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
@@ -81,7 +81,7 @@ https://templatemo.com/tm-581-kind-heart-charity
                  <img src="images/wof.gif" class="logo img-fluid" alt="Kind Heart Charity">
                 <span>
                 
-                    <h4 style="color:#3b1d76;">System Portal</h4>
+                    <h4 style="color:#3b1d76;">Systems Portal</h4>
                 </span>
             </a>
 
