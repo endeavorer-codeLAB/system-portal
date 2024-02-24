@@ -22,3 +22,8 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::get('/admin', [App\Http\Controllers\Admin\AdminController::class, 'index'])->name('admin.index');
+
+Route::get('/admin/users', [App\Http\Controllers\User\UserController::class, 'index'])->name('admin.users.index');
+Route::get('/admin/programs', [App\Http\Controllers\Program\ProgramController::class, 'index'])->name('admin.programs.index');
+Route::get('/admin/programs/create', [App\Http\Controllers\Program\ProgramController::class, 'create'])->name('admin.programs.create');
+Route::post('/admin/programs/create', [App\Http\Controllers\Program\ProgramController::class, 'store'])->name('admin.programs.store');
